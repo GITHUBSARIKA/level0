@@ -13,19 +13,28 @@ public class speakandspell {
 
 	public static void main(String[] args) {
 		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-              speak("5sx5"
-              		+ "s5xd8sw58s8s8w5s58w8s8s85w8w85w85s5sw58ws85s85s8sw8w588sw8w8sw5w8w88w5s5s8wl;htgjufgyhr7tduy");
+              spell("happiness");
+              		
 		// 2. Catch the user's answer in a String
-
-		// 3. If the user spelled the word correctly, speak "correct"
-
-		// 4. Otherwise say "wrong"
+ String answer=JOptionPane.showInputDialog(" please type your answer");
+		// 3. If the user spelled the word correctly, speak "correct
+ if (answer.equals("happiness")) {
+	 spell("correct");
+ }
+ 
+		
+	 
+	 
+	 // 4. Otherwise say "wrong"
+ else                   {
+	 spell("wrong");
+ }	 
 
 		// 5. repeat the process for other words
 		
 	}
 
-	static void speak(String words) {
+	static void spell(String words) {
 		try {
 			Runtime.getRuntime().exec("say " + words).waitFor();
 		} catch (Exception e) {
