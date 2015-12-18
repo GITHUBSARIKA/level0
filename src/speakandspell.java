@@ -13,7 +13,10 @@ public class speakandspell {
 
 	public static void main(String[] args) {
 		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-              spell("o o o o o  o o o o o o o o o o o o o o o o o o o o o o o o 0 0 0 0 0 0 0 0 0 0 o o o 0 0 o 0 o 0 o 0 ");
+		for (int i = 0; i < 20; i++) {
+			
+		}
+              spell("Jolly old saint nicholas la la la la ");
               		
 		// 2. Catch the user's answer in a String
  String answer=JOptionPane.showInputDialog(" please type your answer");
