@@ -31,7 +31,7 @@ public class DontForgetTheLyrics {
             	   JOptionPane.showMessageDialog(null, "too bad too sad");
                }
 		// 8. Otherwise, tell them they are wrong, and give them the answer.
-
+             
 		// 9. Record another sound and repeat steps 5-8.
 
 		// 10. [optional] Add a points variable that will calculate their final score.
