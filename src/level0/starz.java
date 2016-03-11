@@ -9,7 +9,7 @@ import org.teachingextensions.logo.Tortoise;
  * answer to the challenge.
  */
 
-public class Starz {
+public class starz {
 
 	public static void main(String[] args) {
 
@@ -18,15 +18,17 @@ public class Starz {
 		Tortoise.setX(50);
 		Tortoise.show();
 		// 2. Make the Tortoise draw a star shape. Hint: 144.
+		
 		for (int i = 0; i < 10; i++) {
-
+			Tortoise.move(50);
 			Tortoise.penDown();
 			for (int t = 0; t < 6; t++) {
 
 				Tortoise.move(30);
 				Tortoise.turn(144);
-				Tortoise.turn(90);
-			}
+			
+				
+			}	}Tortoise.setSpeed(10);
 		} // 3. Set the size of the star to 30.
 
 		/** THE CHALLENGE: **/
@@ -38,4 +40,4 @@ public class Starz {
 
 	}
 
-}
+
