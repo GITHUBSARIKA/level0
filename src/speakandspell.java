@@ -16,7 +16,7 @@ public class speakandspell {
 		for (int i = 0; i < 20; i++) {
 			
 		}
-              spell("Jolly old saint nicholas la la la la ");
+              spell("o o o o o o oooooooo o o o o o ooooooooooooooooooooooooooooooo  ");
               		
 		// 2. Catch the user's answer in a String
  String answer=JOptionPane.showInputDialog(" please type your answer");
