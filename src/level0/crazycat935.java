@@ -19,7 +19,7 @@ public class crazycat935 {
 			}
 		// 5. If they say 0, show them a video of A Frog Sitting on a Bench Like a Human
 		      if (ads==0) {
-				
+		    	  playVideo("https://www.youtube.com/watch?v=SKRgktzRvZ0");
 			}
 	}
 
